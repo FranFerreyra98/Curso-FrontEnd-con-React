@@ -20,14 +20,23 @@
             <p>Profesión: Desarrollador Frontend</p>
         </div>
        
-        <div id="habilidades">
+        <!-- <div id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript básico</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript básico</li>
             </ul>
-        </div>
+        </div> -->
+
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea">
+        <button onclick="agregarTarea()">Agregar</button>
+        <button onclick="mostrarCompletadas()">Mostrar completadas</button>
+        <button onclick="mostrarPendientes()">Mostrar pendientes</button>
+        <ul id="listaTareas"></ul>
+
+        <script src="script.js"></script>
     </section>
 
     <footer>
